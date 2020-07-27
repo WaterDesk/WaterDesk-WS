@@ -11,3 +11,24 @@ WaterDesk软件功能完善、操作便捷、界面美观，适用于不同信�
 上海慧水科技有限公司
 
 ![WaterDesk](./images/WaterDesk_01.png)
+
+## Release Notes
+
+### version 1.5.0
+ * Demand allocation by referencing to Customers
+ * Fix epanet bugs: some Pump Curve's bugs during simulation calculation
+ * Add PCI (Pressure Calibration Index) analysis
+ * Add more SCADA objects: Frequency (for Pump), Energy (for Pump), Switch (for Pump or Valve), and Level (for Reservoir or Tank)
+ * Support Baidu Earth for web map
+ * Some bug fixes
+
+### version 1.4.0
+ * Add recent file list
+ * Fix epanet bug: apply pressure control during ggasolver
+ * Pump curve fitting
+ * Some bug fixes
+
+### version 1.3.0
+ * Add Baidu Map
+ * Fix epanet bug: reset speed to 0.0 if change pump status to LINK_CLOSED
+ * Some bug fixes and performance improvement
