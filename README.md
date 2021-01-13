@@ -14,6 +14,25 @@ WaterDesk软件功能完善、操作便捷、界面美观，适用于不同信�
 
 ## Release Notes
 
+### version 2.0.0
+ * update pattern values from SCADA by JS expressions
+ * measure distance in map
+ * add legend setting for Customers
+ * add flow/pipe direction arrow display setting
+ * add FCI (Flow Calibration Index) analysis
+ * optimize trace up/down 
+ * optimize demand allocation
+ * optimize selection set operations
+ * display head for Pressure SCADA in result graph
+ * Flow SCADA can be converted to Transfer Flowmeter
+ * SCADA points' Error chart / Objects' difference in result graph
+ * support more data file format for SCADA time data (.csv)
+ * support database source for SCADA time data (Access, Sqlite, SQL Server)
+ * support search in SCADA Browser window
+ * export to Infoworks' calibration data files
+ * support data transform when import SCADA time data
+ * Some bug fixes and performance improvement
+
 ### version 1.5.0
  * Demand allocation by referencing to Customers
  * Fix epanet bugs: some Pump Curve's bugs during simulation calculation
