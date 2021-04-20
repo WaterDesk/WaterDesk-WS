@@ -14,6 +14,14 @@ WaterDesk软件功能完善、操作便捷、界面美观，适用于不同信�
 
 ## Release Notes
 
+### version 2.1.0
+ * improve the graphics performance, especially displaying the labels of model objects
+ * legend settings for Pressure, Flow and Quality SCADA objects
+ * add Text Label with/without referencing model objects
+ * style settings for Object Labels and Text Label
+ * allow multiple graph chart windows to be pinned
+ * some bug fixes
+
 ### version 2.0.0
  * update pattern values from SCADA by JS expressions
  * measure distance in map
