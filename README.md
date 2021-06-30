@@ -14,6 +14,19 @@ WaterDesk软件功能完善、操作便捷、界面美观，适用于不同信�
 
 ## Release Notes
 
+### version 2.2.0
+ * quick search bar
+ * open recent folders
+ * save and edit project notes
+ * customize the content for objects' labels
+ * find the neighbor junctions of which the difference of elevation or head exceeds the threshold
+ * pressure influence coverage analysis
+ * delete unused result files automatically
+ * calculate the reliability for Pressure and Flow SCADAs
+ * analysis the flow and demand data of DMA
+ * some UI improvements
+ * some bug fixes
+
 ### version 2.1.0
  * improve the graphics performance, especially displaying the labels of model objects
  * legend settings for Pressure, Flow and Quality SCADA objects
