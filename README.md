@@ -14,6 +14,19 @@ WaterDesk软件功能完善、操作便捷、界面美观，适用于不同信�
 
 ## Release Notes
 
+### version 2.3.0
+ * polygonal selection
+ * add Plant, Pump Station objects
+ * support enable/disable status for model objects
+ * add Zone object
+ * Zone analysis for completeness, bind Flow SCADA to Zone semi-automatically
+ * add virtual pattern
+ * add virtual SCADA, support Model value expressions: `PRESSURE()`, `FLOW()`, `QUALITY()`
+ * support search in Time Pattern Editor window
+ * fix some epanet bugs about quality simulation
+ * some UI improvements
+ * some bug fixes
+
 ### version 2.2.0
  * quick search bar
  * open recent folders
