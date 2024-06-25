@@ -14,6 +14,24 @@ WaterDesk 软件功能完善、操作便捷、界面美观，适用于不同信�
 
 ## Release Notes
 
+### version 4.0.0
+
+- object properties
+  - Pattern: add more pattern types: reservoir level, inflow of tank, outflow of tank, quality
+  - all Link objects: add control item count, display it in property palette and table
+- new features and improvement
+  - energy report
+  - display selection sets as tree structure by using path separator '/', e.g. level-1/item
+  - highlighting rows in tables when selecting object in the map
+  - add a simulation option: ignore invalid controls which referenced objects are invalid during simulation
+  - view: highlight Link objects with controls
+  - view: highlight boundary conditional SCADA points
+  - refactor Time Pattern Editor window as modeless
+  - refactor Background layers manager, allow import as model objects batchly
+  - show profile graph for link objects
+  - analyze the relationship between Flow and Pressure SCADA group
+  - some other UI improvement and bug fixes
+
 ### version 3.1.0
 
 - some bug fixes
@@ -39,7 +57,7 @@ WaterDesk 软件功能完善、操作便捷、界面美观，适用于不同信�
   - some UI improvements and bug fixes
 - EPANET bug fixes
   - [fix - OptionParser::parseQualOption doesn't consider the cases for "Quality Trace" mode: the trace node has not been specified; the specified trace node doesn't exist](https://github.com/OpenWaterAnalytics/epanet-dev/pull/61)
-  - [fix - the last volume segment should be initialized as the first volume segment during intializing a tank's mixing model](https://github.com/OpenWaterAnalytics/epanet-dev/pull/62)
+  - [fix - the last volume segment should be initialized as the first volume segment during initializing a tank's mixing model](https://github.com/OpenWaterAnalytics/epanet-dev/pull/62)
 - Online Support (need registration): there are some advanced features which are used to connect WaterDesk Online System
   - import billings
   - allocate billings to customers as demands
