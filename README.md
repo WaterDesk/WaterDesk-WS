@@ -14,6 +14,16 @@ WaterDesk 软件功能完善、操作便捷、界面美观，适用于不同信�
 
 ## Release Notes
 
+### version 5.0.0
+
+- upgrade network topologies by differencing GIS changes
+- generate demand patterns by clustering algorithms to identify water user groups
+- connect with WaterDesk-Live system, upload/download models to/from online system with latest SCADA time data
+- model file encryption
+- AI assistant "XIAOHUI"
+- find shortest path by given two objects
+- some other UI improvement and bug fixes
+
 ### version 4.0.0
 
 - object properties
@@ -27,7 +37,7 @@ WaterDesk 软件功能完善、操作便捷、界面美观，适用于不同信�
   - view: highlight Link objects with controls
   - view: highlight boundary conditional SCADA points
   - refactor Time Pattern Editor window as modeless
-  - refactor Background layers manager, allow import as model objects batchly
+  - refactor Background layers manager, allow import as model objects in batch
   - show profile graph for link objects
   - analyze the relationship between Flow and Pressure SCADA group
   - some other UI improvement and bug fixes
@@ -41,7 +51,7 @@ WaterDesk 软件功能完善、操作便捷、界面美观，适用于不同信�
 - object properties
   - all objects: add note6 ~ note10 fields
   - pump: add Rated Flow, Rated Head, Frequency Mode(Fixed/Variable), Max Frequency and Min Frequency
-  - Quality Scada: add Chlorine and Turbidity types
+  - Quality SCADA: add Chlorine and Turbidity types
   - Pattern: add two virtual patterns, total energy and total efficiency
 - new features and improvements:
   - merge model files by importing a .wdm file
@@ -50,9 +60,9 @@ WaterDesk 软件功能完善、操作便捷、界面美观，适用于不同信�
   - selection mode in Status Bar: controls the selection mode with overlapping objects
   - navigation mode in Status Bar: controls the navigation mode by moving or zooming
   - allow users to clear, load, unload simulation results
-  - graph window: add level and head properties of Level Scada, customize the max and min values of the Y-axis
+  - graph window: add level and head properties of Level SCADA, customize the max and min values of the Y-axis
   - Control Editor window: display control items in a table
-  - import scada time data: specify a time range and discard the seconds component
+  - import SCADA time data: specify a time range and discard the seconds component
   - performance improvement, such as network simplification, select a large number of objects in table and highlight them in the map, delete a large number of objects, play mode, etc.
   - some UI improvements and bug fixes
 - EPANET bug fixes
@@ -76,7 +86,7 @@ WaterDesk 软件功能完善、操作便捷、界面美观，适用于不同信�
 - add virtual pattern
 - add virtual SCADA, support Model value expressions: `PRESSURE()`, `FLOW()`, `QUALITY()`
 - support search in Time Pattern Editor window
-- fix some epanet bugs about quality simulation
+- fix some EPANET bugs about quality simulation
 - some UI improvements
 - some bug fixes
 
@@ -126,7 +136,7 @@ WaterDesk 软件功能完善、操作便捷、界面美观，适用于不同信�
 ### version 1.5.0
 
 - Demand allocation by referencing to Customers
-- Fix epanet bugs: some Pump Curve's bugs during simulation calculation
+- Fix EPANET bugs: some Pump Curve's bugs during simulation calculation
 - Add PCI (Pressure Calibration Index) analysis
 - Add more SCADA objects: Frequency (for Pump), Energy (for Pump), Switch (for Pump or Valve), and Level (for Reservoir or Tank)
 - Support Baidu Earth for web map
@@ -135,12 +145,12 @@ WaterDesk 软件功能完善、操作便捷、界面美观，适用于不同信�
 ### version 1.4.0
 
 - Add recent file list
-- Fix epanet bug: apply pressure control during ggasolver
+- Fix EPANET bug: apply pressure control during ggasolver
 - Pump curve fitting
 - Some bug fixes
 
 ### version 1.3.0
 
 - Add Baidu Map
-- Fix epanet bug: reset speed to 0.0 if change pump status to LINK_CLOSED
+- Fix EPANET bug: reset speed to 0.0 if change pump status to LINK_CLOSED
 - Some bug fixes and performance improvement
