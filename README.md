@@ -12,7 +12,31 @@ WaterDesk 软件功能完善、操作便捷、界面美观，适用于不同信�
 
 ![WaterDesk](./images/WaterDesk_01.png)
 
+## System Requirements
+
+- System requirements for WaterDesk Educational
+
+  |                      |                                                              |
+  | -------------------- | ------------------------------------------------------------ |
+  | **Operating System** | 64-bit Microsoft® Windows® 11 and Windows 10                 |
+  | **Processor**        | **Basic**: 2.5-2.9 GHz processor with 8 logical cores (base) |
+  |                      | **Recommended**: 3+ GHz processor (base), 4+ GHz (turbo)     |
+  | **Memory**           | **Basic**: 16 GB                                             |
+  |                      | **Recommended**: 64 GB                                       |
+  | Display Resolution   | 1920 x 1080 with True Color                                  |
+  | Disk Space           | 500G (suggested SSD)                                         |
+  | .NET Framework       | .NET Framework version 4.8                                   |
+  | VC Runtime           | Visual C++ Redistributable for Visual Studio 2015-2022       |
+
 ## Release Notes
+
+### version 6.0.0
+
+- support undo/redo
+- support tianditu map
+- EPANET bug fixes
+- [reset valve setting when valve status changes to be a fixed status (OPEN/CLOSED) by controls](https://github.com/OpenWaterAnalytics/epanet-dev/pull/66)
+- some other performance/UI improvement and bug fixes
 
 ### version 5.0.0
 
